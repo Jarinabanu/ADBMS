@@ -1,1 +1,1 @@
-DROP TABLE Hospital;
+DROP TABLE Patient;
