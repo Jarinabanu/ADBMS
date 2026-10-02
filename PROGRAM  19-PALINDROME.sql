@@ -1,3 +1,4 @@
+SET SERVEROUTPUT ON;
 DECLARE
     str VARCHAR2(50) := 'MADAM';
     rev VARCHAR2(50) := '';
