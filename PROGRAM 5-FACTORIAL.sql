@@ -1,3 +1,5 @@
+SET SERVEROUTPUT ON;
+
 DECLARE
     n NUMBER := 5;
     fact NUMBER := 1;
