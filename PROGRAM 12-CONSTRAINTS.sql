@@ -1,0 +1,22 @@
+-- Create table with constraints
+CREATE TABLE CUSTOMER (
+    CUSTOMER_ID NUMBER CONSTRAINT PK_CUSTOMER PRIMARY KEY,
+    NAME VARCHAR2(50) CONSTRAINT NN_NAME NOT NULL,
+    EMAIL VARCHAR2(100) CONSTRAINT UQ_EMAIL UNIQUE,
+    AGE NUMBER CONSTRAINT CHK_AGE CHECK (AGE >= 18),
+    CITY VARCHAR2(30) DEFAULT 'Chennai'
+);
+
+
+-- Insert valid values
+INSERT INTO CUSTOMER
+VALUES (101, 'Anu', 'anu@gmail.com', 20, 'Chennai');
+
+INSERT INTO CUSTOMER
+VALUES (102, 'Ravi', 'ravi@gmail.com', 25, 'Villupuram');
+
+COMMIT;
+
+
+-- Display records
+SELECT * FROM CUSTOMER;
