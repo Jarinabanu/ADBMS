@@ -1,3 +1,5 @@
+SET SERVEROUTPUT ON;
+
 DECLARE
     n NUMBER := 10;
     a NUMBER := 0;
