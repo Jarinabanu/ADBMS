@@ -1,3 +1,5 @@
+SET SERVEROUTPUT ON;
+
 DECLARE
     n NUMBER := 17;
     count_num NUMBER := 0;
