@@ -1,3 +1,5 @@
+SET SERVEROUTPUT ON;
+
 -- Create first table
 CREATE TABLE A (
     ID NUMBER,
