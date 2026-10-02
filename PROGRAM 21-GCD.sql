@@ -1,3 +1,5 @@
+SET SERVEROUTPUT ON;
+
 DECLARE
     a NUMBER := 24;
     b NUMBER := 36;
