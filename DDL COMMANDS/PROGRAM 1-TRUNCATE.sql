@@ -1,1 +1,1 @@
-TRUNCATE TABLE Hospital;
+TRUNCATE TABLE Patient;
