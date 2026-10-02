@@ -1,3 +1,5 @@
+SET SERVEROUTPUT ON;
+
 -- Create table
 CREATE TABLE PERSON (
     ID NUMBER,
