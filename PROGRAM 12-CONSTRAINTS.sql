@@ -1,4 +1,3 @@
-SET SERVEROUTPUT ON;
 
 -- Create table with constraints
 CREATE TABLE CUSTOMER (
